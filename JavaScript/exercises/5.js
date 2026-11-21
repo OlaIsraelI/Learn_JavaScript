@@ -18,3 +18,6 @@ console.log(language.toUpperCase());
 
 //Format the strings in the variable language to lower case.
 console.log(language.toLowerCase());
+
+//Print the actual string
+console.log(language);
