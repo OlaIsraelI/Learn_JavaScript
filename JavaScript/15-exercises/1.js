@@ -1,4 +1,5 @@
 //Basic, Variables, Data Types, Templates literals
+//Variable Declarations & Reassignment:
 
 const track = "Full-Stack JS";
 let session = 1;
