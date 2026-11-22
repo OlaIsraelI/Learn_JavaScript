@@ -1,4 +1,4 @@
-//Strings & Text Manipulation (5 Exercises)
+//Strings & Text Manipulation
 
 //Length, Indexing & Case Helpers
 
