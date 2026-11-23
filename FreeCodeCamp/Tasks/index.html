@@ -39,7 +39,7 @@
     </header>
 
     <main>
-      <section>
+      <section aria-labelledby="featured-heading">
         <h2>Featured Products</h2>
         <div class="product grid">
           <article class="product-card" id="product-vegetables">
@@ -119,6 +119,14 @@
               Use it in moderation.
             </p>
           </article>
+        </div>
+      </section>
+
+      <section arial-label="Cart actions">
+        <p id="cart-summary">Cart: 0 items</p>
+        <div class="btn-container">
+          <button type="button" id="view-cart-btn">View Cart</button>
+          <button type="button" id="check-out-btn">Checkout</button>
         </div>
       </section>
     </main>
