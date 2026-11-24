@@ -84,7 +84,63 @@
             attention to details
           </p>
         </article>
+
+        <section id="rsvp" class="panel">
+          <h2>Reserve Your Seat</h2>
+          <form action="#" method="post" class="rsvp-form">
+            <div class="form-field">
+              <lable for="attendee-name">Full Name</lable>
+              <input
+                id="attendee-name"
+                name="attendee_name"
+                type="text"
+                required
+              />
+            </div>
+
+            <div class="form-field">
+              <label for="attendee-email">Your Email</label>
+              <input
+                id="attendee-email"
+                name="attendee_email"
+                type="text"
+                required
+              />
+            </div>
+
+            <div class="form-field">
+              <label for="attendee-notes">Questions or Dietary Notes</label>
+              <textarea
+                id="attendee-notes"
+                name="attendee_notes"
+                rows="4"
+              ></textarea>
+            </div>
+
+            <button type="submit" id="rsvp-submit-btn" class="submit-btn">
+              Confirm Registration
+            </button>
+          </form>
+        </section>
       </main>
+
+      <aside id="venue-info" class="panel venue-aside">
+        <h2>Venue &amp; Arrival Notes</h2>
+        <p>
+          <strong>Location:</strong>Yaba Tech Hub, Herbert Macaulay Way, Lagos
+        </p>
+        <p>
+          <strong>Arrival Window:</strong>Arrival 20 minutes early for badge
+          check-in and setup.
+        </p>
+      </aside>
     </div>
+
+    <footer class="site-footer">
+      <p>
+        &copy; 2026 Lagos Tech Meetup &amp; Workshop Hub | Built with Semantic
+        HTML and CSS
+      </p>
+    </footer>
   </body>
 </html>
