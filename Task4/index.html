@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="An event feedback and speaker suggestion card"
+    />
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="IntroToSoftwareEngineering" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="" />
+    <title>
+      Introduction to Software Engineering | specificity & form pairing practice
+    </title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header></header>
+
+    <main class="page-wrapper">
+      <section class="feedback-card" aria-labelledby="form-heading">
+        <h1 id="form-heading">Session Feedback &amp; Topic Patch</h1>
+        <p class="intro-note">
+          Share your thoughts on the latest session or pitch a topic for the
+          next one.
+        </p>
+
+        <form action="#" method="post" class="pitch-form">
+          <div class="field-group">
+            <label for="speaker-name">Your Name</label>
+            <input id="speaker-name" name="Speaker_name" type="text" required />
+          </div>
+
+          <div class="field-group">
+            <label for="speaker-email">Email Address</label>
+            <input
+              id="speaker-email"
+              name="Speaker_email"
+              type="text"
+              required
+            />
+          </div>
+
+          <div class="feedback-card">
+            <label for="topic-idea">Session Topic or Feedback</label>
+            <textarea
+              id="topic-idea"
+              name="topic-idea"
+              rows="4"
+              required
+            ></textarea>
+          </div>
+
+          <button type="submit" id="submit-pitc-btn" class="btn-submit">
+            Send Pitch
+          </button>
+        </form>
+      </section>
+    </main>
+
+    <footer></footer>
+  </body>
+</html>
