@@ -11,6 +11,7 @@
     <meta property="og:type" content="website" />
     <meta property="og:image" content="" />
     <title>Introduction to Software Engineering | Responsive Layout</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
@@ -21,7 +22,40 @@
       </p>
     </header>
 
-    <main></main>
+    <main class="container">
+      <section aria-labelledby="cards-heading">
+        <h2 id="cards-heading">Layout Tracks</h2>
+
+        <div class="card-grid">
+          <article class="card">
+            <h3>Mobile-First Flow</h3>
+            <p>
+              Starts as a single column on a small screen with zero horizontal
+              overflow
+            </p>
+            <a href="#cards-heading" class="pill-link">Back to top</a>
+          </article>
+
+          <article class="card">
+            <h3><code>rem</code> vs <code>em</code></h3>
+            <p>
+              <code>rem</code>Tracks the root font size, while<code>em</code>
+              scales relative to local text.
+            </p>
+            <a href="#cards-heading" class="pill-link">Inspect units</a>
+          </article>
+
+          <article class="card">
+            <h3><code>min-width: 0</code></h3>
+            <p>
+              Prevent long words or flex/grid children from stretching a column
+              past its track.
+            </p>
+            <a href="#cards-heading" class="pill-link">Check grid</a>
+          </article>
+        </div>
+      </section>
+    </main>
 
     <footer></footer>
   </body>
