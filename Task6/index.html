@@ -116,6 +116,42 @@
             </p>
           </article>
         </section>
+
+        <section id="reader-form" class="journal-card">
+          <h2>Share a Kitchen note or question</h2>
+          <form action="#" method="post" class="note-form">
+            <div class="field-row">
+              <label for="reader-name">Your Name</label>
+              <input id="reader-name" name="reader_name" type="text" required />
+            </div>
+
+            <div class="field-row">
+              <label for="reader-email">Email Address</label>
+              <input
+                id="reader-email"
+                name="reader_email"
+                type="email"
+                required
+              />
+            </div>
+
+            <div class="field-row">
+              <label for="reader-note"
+                >Recipe Note or Substitution Question</label
+              >
+              <textarea
+                id="reader-note"
+                name="reader-name"
+                rows="4"
+                required
+              ></textarea>
+            </div>
+
+            <button type="submit" id="send-note-btn" class="submit-btn">
+              Post Kitchen Note
+            </button>
+          </form>
+        </section>
       </main>
     </div>
   </body>
