@@ -112,3 +112,15 @@ html {
 #send-note-btn {
   background-color: #9a3412;
 }
+.site-footer {
+  text-align: center;
+  padding: 1.5rem 1rem;
+  color: #57534e;
+  font-size: 0.9rem;
+}
+@media (min-width: 768px) {
+  .page-layout {
+    grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
+    align-items: start;
+  }
+}
