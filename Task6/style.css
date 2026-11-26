@@ -1,0 +1,77 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html {
+  font-size: 16px;
+}
+.body {
+  margin: 0;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1rem;
+  line-height: 1.65;
+  color: #1f2937;
+  background-color: #faf7f2;
+}
+.site-header {
+  background-color: #292524;
+  color: #ffffff;
+  padding: 1.5rem 1rem;
+  margin-bottom: 1.5rem;
+}
+.header-inner {
+  max-width: 64rem;
+  margin: 0 auto;
+}
+.subtitle {
+  margin: 0.5rem 0 1rem;
+  color: #e7e5e4;
+}
+.journal-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1.25rem;
+}
+.journal-nav a {
+  color: #fde68a;
+  text-decoration: none;
+}
+.journal-nav a:hover,
+.journal-nav a:focus {
+  color: #ffffff;
+  text-decoration: underline;
+}
+.page-layout {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  width: 100%;
+  max-width: 64rem;
+  margin: 0 auto 2.5rem;
+  padding: 0 1rem;
+}
+.main-column,
+.notes-aside {
+  min-width: 0;
+}
+.journal-card {
+  background-color: #ffffff;
+  border: 1px solid #d6d3d1;
+  border-radius: 0.5rem;
+  padding: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+.entry-meta {
+  color: #57534e;
+  font-size: 0.9rem;
+  margin-top: 0.25rem;
+}
+.dish-photo {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.375rem;
+  margin: 1rem 0;
+}
