@@ -59,7 +59,7 @@ body {
 .portfolio-section {
   background-color: #ffffff;
   border: 1px solid #cbd5e1;
-  border-radius: o.5rem;
+  border-radius: 0.5rem;
   padding: 1.25rem;
   margin-bottom: 1.5rem;
 }
@@ -89,4 +89,52 @@ body {
   border-radius: 0.375rem;
   margin: 0.75rem 0 1rem;
   text-align: center;
+}
+.inquiry-form {
+  min-width: 0;
+  background-color: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.5rem;
+  padding: 1.125rem;
+}
+.field-group {
+  margin-top: 1rem;
+}
+.field-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.375rem;
+}
+.field-group input,
+.field-group textarea {
+  width: 100%;
+  min-width: 0;
+  padding: 0.65rem 0.75rem;
+  border: 1px solid #94a3b8;
+  border-radius: 0.375rem;
+  font-family: inherit;
+  font-size: 1rem;
+  color: #0f127a;
+  background-color: #ffffff;
+}
+.field-group input:focus,
+.field-group textarea:focus {
+  outline: 2px solid #2563ab;
+  border-color: #2563ab;
+}
+.primary-btn {
+  padding: 0.75rem 1.35rem;
+  border: none;
+  border-radius: 0.375rem;
+  background-color: #1e293b;
+  color: #ffffff;
+  font-size: 1rem;
+  cursor: pointer;
+}
+#inquiry-submit-btn {
+  background-color: #1d4ed8;
+}
+#inquiry-submit-btn:hover,
+#inquiry-submit-btn:focus {
+  background-color: #1e40af;
 }

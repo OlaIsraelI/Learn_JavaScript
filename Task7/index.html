@@ -124,6 +124,47 @@
             </article>
           </div>
         </section>
+
+        <section id="client-inquiry" class="portfolio-sction">
+          <h2>Project Inquiry</h2>
+          <p>
+            Share a short overview of your project goals and timeline to check
+            project fit.
+          </p>
+
+          <form action="#" method="post" class="inquiry-form">
+            <div class="field-group">
+              <label for="client-name">Your Name</label>
+              <input id="client-name" name="client_name" type="text" required />
+            </div>
+
+            <div class="field-group">
+              <label for="client-emal">Work Email</label>
+              <input
+                id="client-name"
+                name="client_name"
+                type="email"
+                required
+              />
+            </div>
+
+            <div class="field-group">
+              <label for="project-scope"
+                >Project Scope &amp; Target Timeline</label
+              >
+              <textarea
+                id="project-scope"
+                name="project_scope"
+                rows="5"
+                required
+              ></textarea>
+            </div>
+
+            <button type="submit" id="inquiry-submit-btn" class="primary-btn">
+              Send Inquiry
+            </button>
+          </form>
+        </section>
       </main>
     </div>
   </body>
