@@ -138,3 +138,20 @@ body {
 #inquiry-submit-btn:focus {
   background-color: #1e40af;
 }
+.site-footer {
+  text-align: center;
+  padding: 1.5rem 1rem;
+  color: #475569;
+  font-size: 0.875rem;
+}
+@media (min-width: 680px) {
+  .case-study-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (min-width: 960px) {
+  .portfolio-layout {
+    grid-template-columns: minmax(0, 2.25fr) minmax(0, 1fr);
+    align-items: start;
+  }
+}
