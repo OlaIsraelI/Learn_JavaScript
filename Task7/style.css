@@ -1,0 +1,45 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html {
+  font-size: 16px;
+}
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #0f172a;
+  background-color: #f8fafc;
+}
+.site-header {
+  background-color: #0f172a;
+  color: #ffffff;
+  padding: 1.75rem 1rem;
+  margin-bottom: 1.5rem;
+}
+.header-inner {
+  max-width: 48rem;
+  margin: 0 auto;
+}
+.subtitle {
+  margin: 0.5rem 0 1.25rem;
+  max-width: 48rem;
+  color: #cbd5e1;
+}
+.portfolio-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1.25rem;
+}
+.portfolio-nav a {
+  color: #93c5fd;
+  text-decoration: none;
+}
+.portfolio-nav a:hover,
+.portfolio-nav a:focus {
+  color: #ffffff;
+  text-decoration: underline;
+}
