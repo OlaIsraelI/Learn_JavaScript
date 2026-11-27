@@ -43,3 +43,50 @@ body {
   color: #ffffff;
   text-decoration: underline;
 }
+.portfolio-layout {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  width: 100%;
+  max-width: 72rem;
+  margin: 0 auto 2.5rem;
+  padding: 0 1rem;
+}
+.main-column,
+.process-aside {
+  min-width: 0;
+}
+.portfolio-section {
+  background-color: #ffffff;
+  border: 1px solid #cbd5e1;
+  border-radius: o.5rem;
+  padding: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+.case-study-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.25rem;
+  margin-top: 1rem;
+}
+.case-card {
+  min-width: 0;
+  background-color: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.5rem;
+  padding: 1.125rem;
+}
+.case-meta {
+  font-size: 0.875rem;
+  color: #475569;
+  margin: 0.25rem 0 0.75rem;
+}
+.case-image {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.375rem;
+  margin: 0.75rem 0 1rem;
+  text-align: center;
+}
